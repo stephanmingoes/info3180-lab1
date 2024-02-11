@@ -1,9 +1,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/app.css') }}"
+    />
     <title>My Website - About</title>
   </head>
   <body>
+    <img src="{{url_for('static', filename='image.png')}}" alt="image" />
     <h1>Stephan Mingoes</h1>
     <p>
       As a Software Engineer, I am constantly seeking new challenges and
